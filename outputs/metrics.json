@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "rows": 17880,
+    "positive_rows": 866,
+    "positive_rate": 0.04843400447427293,
+    "unique_text_groups": 15749,
+    "split_sizes": {
+      "train": 11669,
+      "validation": 2761,
+      "test": 3450
+    },
+    "split_positive_rates": {
+      "train": 0.047390521895620874,
+      "validation": 0.04563563926113727,
+      "test": 0.05420289855072464
+    },
+    "missing": {
+      "job_id": 0,
+      "title": 0,
+      "location": 346,
+      "department": 11547,
+      "salary_range": 15012,
+      "company_profile": 3308,
+      "description": 1,
+      "requirements": 2696,
+      "benefits": 7212,
+      "telecommuting": 0,
+      "has_company_logo": 0,
+      "has_questions": 0,
+      "employment_type": 3471,
+      "required_experience": 7050,
+      "required_education": 8105,
+      "industry": 4903,
+      "function": 6455,
+      "fraudulent": 0
+    }
+  },
+  "models": {
+    "structured": {
+      "validation_selected_threshold": 0.746236224165596,
+      "validation": {
+        "threshold": 0.746236224165596,
+        "roc_auc": 0.9562121622842684,
+        "pr_auc": 0.580141445244693,
+        "precision": 0.5251396648044693,
+        "recall": 0.746031746031746,
+        "f1": 0.6163934426229508,
+        "f2": 0.6881405563689604,
+        "balanced_accuracy": 0.8568868407578085,
+        "confusion_matrix": [
+          [
+            2550,
+            85
+          ],
+          [
+            32,
+            94
+          ]
+        ]
+      },
+      "test_at_0_5": {
+        "threshold": 0.5,
+        "roc_auc": 0.9630404748754878,
+        "pr_auc": 0.6524271299120344,
+        "precision": 0.4241573033707865,
+        "recall": 0.8074866310160428,
+        "f1": 0.5561694290976059,
+        "f2": 0.6838768115942029,
+        "balanced_accuracy": 0.872330505210749,
+        "confusion_matrix": [
+          [
+            3058,
+            205
+          ],
+          [
+            36,
+            151
+          ]
+        ]
+      },
+      "test_selected": {
+        "threshold": 0.746236224165596,
+        "roc_auc": 0.9630404748754878,
+        "pr_auc": 0.6524271299120344,
+        "precision": 0.5654008438818565,
+        "recall": 0.7165775401069518,
+        "f1": 0.6320754716981132,
+        "f2": 0.6802030456852792,
+        "balanced_accuracy": 0.8425057482943585,
+        "confusion_matrix": [
+          [
+            3160,
+            103
+          ],
+          [
+            53,
+            134
+          ]
+        ]
+      },
+      "n_features": 1268
+    },
+    "word_text": {
+      "validation_selected_threshold": 0.4200515136127191,
+      "validation": {
+        "threshold": 0.4200515136127191,
+        "roc_auc": 0.979621095750128,
+        "pr_auc": 0.8711117313926839,
+        "precision": 0.6647058823529411,
+        "recall": 0.8968253968253969,
+        "f1": 0.7635135135135135,
+        "f2": 0.8382789317507419,
+        "balanced_accuracy": 0.9375967591337611,
+        "confusion_matrix": [
+          [
+            2578,
+            57
+          ],
+          [
+            13,
+            113
+          ]
+        ]
+      },
+      "test_at_0_5": {
+        "threshold": 0.5,
+        "roc_auc": 0.9885476604482932,
+        "pr_auc": 0.9235607611328506,
+        "precision": 0.8333333333333334,
+        "recall": 0.8556149732620321,
+        "f1": 0.8443271767810027,
+        "f2": 0.851063829787234,
+        "balanced_accuracy": 0.9229040235602223,
+        "confusion_matrix": [
+          [
+            3231,
+            32
+          ],
+          [
+            27,
+            160
+          ]
+        ]
+      },
+      "test_selected": {
+        "threshold": 0.4200515136127191,
+        "roc_auc": 0.9885476604482932,
+        "pr_auc": 0.9235607611328506,
+        "precision": 0.7312775330396476,
+        "recall": 0.8877005347593583,
+        "f1": 0.8019323671497585,
+        "f2": 0.8512820512820513,
+        "balanced_accuracy": 0.9345030409009786,
+        "confusion_matrix": [
+          [
+            3202,
+            61
+          ],
+          [
+            21,
+            166
+          ]
+        ]
+      },
+      "n_features": 120000
+    },
+    "fused": {
+      "validation_selected_threshold": 0.29918832266335627,
+      "validation": {
+        "threshold": 0.29918832266335627,
+        "roc_auc": 0.9812656245293816,
+        "pr_auc": 0.8512480649278541,
+        "precision": 0.5816326530612245,
+        "recall": 0.9047619047619048,
+        "f1": 0.7080745341614907,
+        "f2": 0.8142857142857143,
+        "balanced_accuracy": 0.9368211800849372,
+        "confusion_matrix": [
+          [
+            2553,
+            82
+          ],
+          [
+            12,
+            114
+          ]
+        ]
+      },
+      "test_at_0_5": {
+        "threshold": 0.5,
+        "roc_auc": 0.9921154542668488,
+        "pr_auc": 0.9206361662989222,
+        "precision": 0.8104265402843602,
+        "recall": 0.9144385026737968,
+        "f1": 0.8592964824120602,
+        "f2": 0.8915537017726799,
+        "balanced_accuracy": 0.9510899224984062,
+        "confusion_matrix": [
+          [
+            3223,
+            40
+          ],
+          [
+            16,
+            171
+          ]
+        ]
+      },
+      "test_selected": {
+        "threshold": 0.29918832266335627,
+        "roc_auc": 0.9921154542668488,
+        "pr_auc": 0.9206361662989222,
+        "precision": 0.6423357664233577,
+        "recall": 0.9411764705882353,
+        "f1": 0.7635574837310195,
+        "f2": 0.8610567514677103,
+        "balanced_accuracy": 0.9555713796398118,
+        "confusion_matrix": [
+          [
+            3165,
+            98
+          ],
+          [
+            11,
+            176
+          ]
+        ]
+      },
+      "n_features": 201268,
+      "bootstrap_95_ci": {
+        "pr_auc": [
+          0.8830946322362837,
+          0.9531573544642391
+        ],
+        "roc_auc": [
+          0.9869353869293654,
+          0.9959337667850545
+        ]
+      }
+    }
+  }
+}

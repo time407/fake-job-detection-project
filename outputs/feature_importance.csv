@@ -1,0 +1,61 @@
+direction,feature,coefficient
+fraud,structured:cat__city_San Mateo,3.0020384970478777
+fraud,structured:cat__industry_Oil & Energy,2.621556862524015
+fraud,structured:cat__department_Information Technology ,2.4809178156099945
+fraud,structured:cat__industry_Hospitality,2.2988662619444833
+fraud,structured:cat__department_Information Technology,2.270235817560459
+fraud,structured:cat__industry_Biotechnology,2.0989848758085525
+fraud,structured:cat__city_AUSTIN,2.0652196494095354
+fraud,structured:cat__department_Controls Engineer,1.8862611873916428
+fraud,structured:cat__city_DALLAS,1.879050656098904
+fraud,structured:cat__country_AU,1.8085708395641573
+fraud,structured:cat__department_Sales and Research,1.7980946021043756
+fraud,structured:cat__country_MY,1.790026452333514
+fraud,structured:cat__industry_Computer Networking,1.7780717137601962
+fraud,structured:cat__industry_Media Production,1.7024577900104834
+fraud,structured:cat__city_Houston,1.69784480989738
+fraud,structured:cat__industry_Accounting,1.6803324066720424
+fraud,structured:cat__city_Toronto,1.5914713578178883
+fraud,structured:cat__city_Hyderabad,1.5853156817678293
+fraud,structured:cat__city_,1.5503566186608355
+fraud,structured:cat__city_Cincinnati,1.5452543495411375
+fraud,structured:cat__country_US,1.5292212090436885
+fraud,structured:cat__city_Bellevue,1.5249413577506468
+fraud,structured:cat__department_Oil & Energy,1.500914557856624
+fraud,structured:cat__city_London,1.4672749568743952
+fraud,structured:cat__department_Product Development,1.4467089398085533
+fraud,word:earn,1.4439551048450372
+fraud,structured:cat__country___MISSING__,1.4430380687324758
+fraud,structured:cat__city_london,1.4418598054618563
+fraud,structured:cat__industry_Design,1.4371820312047339
+fraud,structured:cat__city_Bakersfield,1.4237286399649425
+legitimate,structured:cat__function_Health Care Provider,-2.363779562916719
+legitimate,structured:cat__industry_Internet,-2.249085445605914
+legitimate,structured:cat__employment_type_Temporary,-2.236253334735529
+legitimate,structured:cat__industry_Restaurants,-1.843098190720867
+legitimate,structured:cat__industry_Education Management,-1.7621604789559369
+legitimate,structured:cat__industry_Computer Software,-1.759798742571066
+legitimate,structured:cat__department_Oil and Gas,-1.6624533100966141
+legitimate,structured:cat__department_Operations,-1.5763291823610825
+legitimate,structured:cat__country_GR,-1.5015342821158142
+legitimate,structured:cat__required_experience_Associate,-1.477370662566987
+legitimate,structured:num__company_profile_words,-1.455091524211924
+legitimate,structured:cat__industry_Insurance,-1.4343391701554822
+legitimate,structured:cat__function_Production,-1.4172668235649617
+legitimate,structured:cat__function_General Business,-1.3283159145630152
+legitimate,structured:cat__city_San Diego,-1.2189921537996466
+legitimate,structured:cat__department_Finance,-1.1219426550348495
+legitimate,structured:cat__department_Accounting,-1.0632645928289295
+legitimate,structured:cat__required_education_Some College Coursework Completed,-1.0612867901390406
+legitimate,structured:cat__industry_Printing,-1.049802673626961
+legitimate,structured:cat__city_Wilmington,-1.0353113534845941
+legitimate,structured:cat__region_SC,-1.0233186245048211
+legitimate,structured:cat__region_OR,-1.0069133217790185
+legitimate,word:will be,-0.9923027807240816
+legitimate,structured:cat__region_WI,-0.9818740006994886
+legitimate,structured:cat__industry_Food & Beverages,-0.9767977215422854
+legitimate,structured:cat__city_Spokane,-0.9390557782955562
+legitimate,structured:cat__department_Retail,-0.9345830833396908
+legitimate,structured:cat__region_NJ,-0.9163547711778345
+legitimate,structured:cat__function_Education,-0.911646982596948
+legitimate,structured:cat__function_Consulting,-0.9109203486697752

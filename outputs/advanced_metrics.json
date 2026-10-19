@@ -1,0 +1,87 @@
+{
+  "architecture": "validation-weighted two-tower ensemble: XGBoost nonlinear structured tower plus word+character TF-IDF linear text tower",
+  "xgboost_best_iteration": 1003,
+  "tree_weight": 0.52,
+  "linear_weight": 0.48,
+  "threshold": 0.49820719961562243,
+  "linear_baseline_test": {
+    "threshold": 0.29918832266335627,
+    "roc_auc": 0.9921154542668488,
+    "pr_auc": 0.9206361662989222,
+    "precision": 0.6423357664233577,
+    "recall": 0.9411764705882353,
+    "f1": 0.7635574837310195,
+    "f2": 0.8610567514677103,
+    "balanced_accuracy": 0.9555713796398118,
+    "confusion_matrix": [
+      [
+        3165,
+        98
+      ],
+      [
+        11,
+        176
+      ]
+    ]
+  },
+  "xgboost_test": {
+    "threshold": 0.3755432367324829,
+    "roc_auc": 0.9903045162009305,
+    "pr_auc": 0.8979656280829461,
+    "precision": 0.7272727272727273,
+    "recall": 0.8556149732620321,
+    "f1": 0.7862407862407862,
+    "f2": 0.8264462809917356,
+    "balanced_accuracy": 0.9186134933732777,
+    "confusion_matrix": [
+      [
+        3203,
+        60
+      ],
+      [
+        27,
+        160
+      ]
+    ]
+  },
+  "advanced_ensemble_validation": {
+    "threshold": 0.49820719961562243,
+    "roc_auc": 0.9859160868648534,
+    "pr_auc": 0.8784380503987587,
+    "precision": 0.7346938775510204,
+    "recall": 0.8571428571428571,
+    "f1": 0.7912087912087912,
+    "f2": 0.8294930875576036,
+    "balanced_accuracy": 0.9211710490647872,
+    "confusion_matrix": [
+      [
+        2596,
+        39
+      ],
+      [
+        18,
+        108
+      ]
+    ]
+  },
+  "advanced_ensemble_test": {
+    "threshold": 0.49820719961562243,
+    "roc_auc": 0.9943672451289044,
+    "pr_auc": 0.9359294111792468,
+    "precision": 0.8461538461538461,
+    "recall": 0.8823529411764706,
+    "f1": 0.8638743455497382,
+    "f2": 0.8748674443266172,
+    "balanced_accuracy": 0.9365794739593661,
+    "confusion_matrix": [
+      [
+        3233,
+        30
+      ],
+      [
+        22,
+        165
+      ]
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+__MACOSX/
+._*
+Thumbs.db
+.vscode/
+.idea/

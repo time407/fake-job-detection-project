@@ -1,0 +1,9 @@
+pandas>=2.2,<3
+numpy>=2.0,<3
+scipy>=1.10,<2
+scikit-learn>=1.5,<2
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+joblib>=1.4,<2
+xgboost>=3.0,<4
+python-docx>=1.1,<2
