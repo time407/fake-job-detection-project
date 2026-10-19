@@ -139,10 +139,10 @@ def main():
 
     doc.add_heading("Reproducibility",1)
     add_table(doc,["Artifact","Purpose"],[
-        ["src/train.py","Feature engineering, grouped splitting, training, evaluation, and export"],
-        ["src/predict.py","Batch scoring for new CSV files"],
-        ["src/train_advanced.py","XGBoost tower training and validation-weighted model fusion"],
-        ["src/predict_advanced.py","Batch scoring with the final two-tower ensemble"],
+        ["code/train.py","Feature engineering, grouped splitting, training, evaluation, and export"],
+        ["code/predict.py","Batch scoring for new CSV files"],
+        ["code/train_advanced.py","XGBoost tower training and validation-weighted model fusion"],
+        ["code/predict_advanced.py","Batch scoring with the final two-tower ensemble"],
         ["outputs/metrics.json","Validation and test metrics"],
         ["outputs/split_indices.json","Fixed train, validation, and test indices"],
         ["outputs/test_errors.csv","False alerts and missed fraud cases"],
@@ -150,7 +150,7 @@ def main():
         ["outputs/fake_job_detector.joblib","Transformers, classifier, and selected threshold"],
         ["outputs/fake_job_detector_advanced.joblib","Final XGBoost and sparse-text ensemble"],
     ],widths=[2.3,4.4])
-    doc.add_paragraph("Reproduce with: python src/train.py --data data/fake_job_postings.csv --output outputs, then PYTHONPATH=src python src/train_advanced.py. The random seed is 42 and dependencies are recorded in requirements.txt.")
+    doc.add_paragraph("Reproduce with: python code/train.py --data data/fake_job_postings.csv --output outputs, then PYTHONPATH=code python code/train_advanced.py. The random seed is 42 and dependencies are recorded in requirements.txt.")
     doc.core_properties.title="Fake Job Posting Detection Machine Learning Report"
     doc.core_properties.subject="Model design, leakage-aware evaluation, and deployment guidance"
     doc.core_properties.author=""

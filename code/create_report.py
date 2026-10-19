@@ -305,8 +305,8 @@ def main():
 
     doc.add_heading("复现说明", level=1)
     add_table(doc, ["文件", "作用"], [
-        ["src train.py", "特征工程 分组切分 训练 评估 保存模型和图表"],
-        ["src predict.py", "对新 CSV 批量评分"],
+        ["code/train.py", "特征工程 分组切分 训练 评估 保存模型和图表"],
+        ["code/predict.py", "对新 CSV 批量评分"],
         ["outputs metrics.json", "完整验证与测试指标"],
         ["outputs split_indices.json", "固定训练 验证 测试索引"],
         ["outputs test_errors.csv", "测试集误报与漏判记录"],
@@ -314,7 +314,7 @@ def main():
         ["outputs fake_job_detector.joblib", "向量器 结构化转换器 分类器与阈值"],
     ], widths=[2.3, 4.4])
     doc.add_paragraph(
-        "复现命令为 python src/train.py --data data/fake_job_postings.csv --output outputs。"
+        "复现命令为 python code/train.py --data data/fake_job_postings.csv --output outputs。"
         "随机种子固定为 42，切分索引随结果一并保存。软件依赖记录在 requirements.txt。"
     )
 
